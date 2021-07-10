@@ -1,0 +1,52 @@
+
+  
+  /* GENERAL STYLES */
+  
+.pagination{
+    padding: 30px 0;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 98%;
+    left: 50%;
+    z-index: 100;
+    display: flex;
+    
+  }
+  
+  .pagination .pagination__item{
+      display: flex;
+      flex-direction: column;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    margin-right: 4px;
+    border-radius: 100%;
+    background-color: #6944ff;
+
+
+
+  }
+  
+  .pagination a{
+    display: inline-block;
+    padding: 10px 18px;
+    color: #fff;
+  }
+  
+  /* ONE */
+  
+   a{
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    padding: 0;
+    text-align: center;
+  }
+/*   
+  .pagination__item--is-active{
+    background-color: #2ecc71;
+    border-radius: 100%;
+    color: #fff;
+  }  */
+  
+   

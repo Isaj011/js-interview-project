@@ -1,0 +1,14 @@
+html {
+  position: relative;
+  overflow-x: hidden !important;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: 'Quicksand', sans-serif;
+  color: #324e63;
+}
